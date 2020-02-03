@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/waterMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Water intake"
+        android:layout_marginBottom="20dp"
+        android:onClick="waterMenu"/>
+
+    <Button
+        android:id="@+id/calorieMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calorie intake"
+        android:layout_marginBottom="20dp"
+        android:onClick="calorieMenu"/>
+
+    <Button
+        android:id="@+id/settingMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App Setting"
+        android:onClick="settingMenu"/>
+
+        <TextView
+            android:id="@+id/returnLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="return to Login Page"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
